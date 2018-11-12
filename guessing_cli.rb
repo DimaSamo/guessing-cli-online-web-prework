@@ -7,6 +7,8 @@ def run_guessing_game
     random = rand(1..6)
     if input.to_i == random
       puts "You guessed the correct number!"
+    else
+      puts "The computer guessed #{input}."
     end
   end
   puts "Goodbye!"
